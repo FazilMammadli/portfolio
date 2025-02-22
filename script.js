@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
       };
 
       // Send email using EmailJS
-      emailjs.send("service_m9ndc2q", "__ejs-test-mail-service__", formData)
+      emailjs.send("service_m9ndc2q", "template_ul2acmv", formData)
         .then(response => {
           console.log("Email sent successfully!", response);
           alert("Message sent successfully!");
